@@ -35,15 +35,19 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400 text-justify">{experience.description}</p>
-              {experience.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
-                >
-                  {tech}
-                </span>
-              ))}
+              <p className="mb-4 text-neutral-400 text-justify">
+                {experience.description}
+              </p>
+              <div className="flex flex-wrap gap-2 mt-4">
+                {experience.technologies.map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}

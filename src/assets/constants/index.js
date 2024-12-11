@@ -58,6 +58,7 @@ export const PROJECTS = [
   {
     title: {
       text: "MakanGak",
+      link: "https://makan-gak-app-fullstack.vercel.app"
     },
     image: project2,
     description:

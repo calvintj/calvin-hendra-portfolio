@@ -23,7 +23,6 @@ const Contact = () => {
           {CONTACT.email}
         </a>
       </motion.div>
-      <p>sdad</p>
     </div>
   );
 };

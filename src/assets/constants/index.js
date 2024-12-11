@@ -9,19 +9,46 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2024",
+    role: "Certified Backend Developer with Node.js",
+    company: "BINUS Center",
+    description: `Earned certification in backend development by completing an intensive program focused on Mastering Backend Development with Node.js. Demonstrated expertise in server-side development, RESTful API design, database integration using Sequelize ORM, and middleware implementation through a rigorous assessment process.`,
+    technologies: ["Node.js", "Express.js", "Sequelize", "MySQL", "REST API"],
+  },
+  {
+    year: "Nov 2023 – July 2024",
+    role: "Member",
+    company: "Google Developer Student Club ",
+    description: `Participated in training sessions organised by the club, gaining valuable skills in both technical and non-technical areas`,
+    technologies: ["Coding"],
+  },
+  {
+    year: "Mar 2023 — Jan 2024",
+    role: "Creative Design Activist",
+    company: "Keluarga Mahasiswa Buddhis Dhammavaddhana",
+    description: `Designed posters for social media platforms using design tools to enhance promotional materials' visual appeal and Collaborated with the marketing team to ensure designs aligned with organisational branding and messaging.`,
+    technologies: ["Design", "Canva", "Photoshop", "Collaboration", "Teamwork"],
+  },
+  {
+    year: "Nov 2022 – Sept 2023",
+    role: "Activist",
+    company: "Bina Nusantara Computer Club",
+    description: `Coordinated with team members to develop and execute impactful work programs, ensuring successful implementation and participated in training sessions organised by the club, enhancing hard skills and soft skills`,
+    technologies: [
+      "Public Speaking",
+      "Coding",
+      "Design",
+      "Teamwork",
+      "Collaboration",
+    ],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: { 
-      text: "MulaiDulu", 
-      link: "https://mulaidulu.site" 
+    title: {
+      text: "MulaiDulu",
+      link: "https://mulaidulu.site",
     },
     image: project1,
     description:
@@ -29,7 +56,7 @@ export const PROJECTS = [
     technologies: ["HTML", "Bootstrap", "Laravel", "MySQL"],
   },
   {
-    title: { 
+    title: {
       text: "MakanGak",
     },
     image: project2,
@@ -38,7 +65,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript", "ReactJs", "NodeJs", "MySQL"],
   },
   {
-    title: { 
+    title: {
       text: "GymMe",
     },
     image: project3,
@@ -47,12 +74,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "C#", "ASP.NET"],
   },
   {
-    title: { 
+    title: {
       text: "Sea of FTars",
     },
     image: project4,
-    description:
-      "Frontend of a interactive and responsive gaming website.",
+    description: "Frontend of a interactive and responsive gaming website.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];

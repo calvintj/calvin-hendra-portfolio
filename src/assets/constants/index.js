@@ -2,12 +2,21 @@ import project1 from "../projects/project-1.png";
 import project2 from "../projects/project-2.jpg";
 import project3 from "../projects/project-3.jpg";
 import project4 from "../projects/project-4.jpg";
+import projectBati from "../projects/project-bati.png"
 
-export const HERO_CONTENT = `I am a highly motivated 5th-semester Computer Science student at Binus University with a strong foundation in software engineering principles. I have hands-on experience in both front-end and back-end development using technologies like React.js, Node.js, Laravel, and MySQL. Additionally, I am proficient in languages such as C, C++, Java, HTML, CSS, and JavaScript. My goal is to apply my skills to build scalable and efficient web applications that provide innovative solutions and exceptional user experiences.`;
+export const HERO_CONTENT = `I am a highly motivated computer science student at Binus University with a strong foundation in software engineering principles. I have hands-on experience in both front-end and back-end development, using modern technologies such as Next.js, TypeScript, React, Node.js, Express.js, and PostgreSQL. Additionally, I have completed projects using languages and frameworks like C, C++, Java, HTML, CSS, JavaScript, MySQL, and Laravel. My goal is to leverage my skills to build scalable and efficient web applications that deliver innovative solutions and exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient, user-friendly web applications. Currently, I specialize in Next.js, TypeScript, React, Node.js, Express.js, and PostgreSQL to develop modern web solutions. I have also gained proficiency in other technologies including C, C++, Java, HTML, CSS, JavaScript, MySQL, and Laravel from past projects. My journey in web development started with a deep curiosity about how things work, and it has evolved into a career where I continuously learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects.`;
+
 
 export const EXPERIENCES = [
+  {
+    year: "February 2024 - Present",
+    role: "Full-Stack Developer Intern",
+    company: "PT Bati Investasi Teknologi",
+    description: `Responsible for developing a full-stack web-based solution for Bati AI Wealth Management while collaborating with the trading team to build robust data pipelines for trading analysis and modeling.`,
+    technologies: ["TypeScript", "React.js", "Next.js", "TailwindCSS", "Node.js", "Express.js", "PostgreSQL"],
+  },  
   {
     year: "May 2024",
     role: "Certified Backend Developer with Node.js",
@@ -45,6 +54,16 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: {
+      text: "Bati WealthAI",
+      link: "",
+    },
+    image: projectBati,
+    description:
+      "Responsible for the development of Bati WealthAI, an intelligent web based CRM for relationship manager to grow their portfolio with Bati AI integration.",
+      technologies: ["TypeScript", "React.js", "Next.js", "TailwindCSS", "Node.js", "Express.js", "PostgreSQL"],
+  },
   {
     title: {
       text: "MulaiDulu",

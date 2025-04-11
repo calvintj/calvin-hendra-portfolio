@@ -57,7 +57,7 @@ export const PROJECTS = [
   {
     title: {
       text: "Bati WealthAI",
-      link: "",
+      link: "http://108.137.198.209:3000",
     },
     image: projectBati,
     description:
